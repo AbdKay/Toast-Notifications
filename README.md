@@ -23,7 +23,7 @@ Font Awesome icons are integrated to enhance the design and provide clear visual
 toast-notifications/
 │── index.html
 │── style.css
-│── app.js
+│── script.js
 │── screenshots/
 │     ├── screenshot1.png
 │     ├── screenshot2.png
