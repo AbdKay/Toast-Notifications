@@ -73,9 +73,7 @@ _Multiple stacked toasts_
 
 ## 🌐 Live Demo
 
-👉 [Click here to view live demo](https://yourusername.github.io/toast-notifications/)
-
-_(Replace the link with your actual GitHub Pages deployment URL once you publish.)_
+👉 https://abdkay.github.io/Toast-Notifications/
 
 ---
 
