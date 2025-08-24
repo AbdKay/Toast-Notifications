@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast Notifications</title>
+
+    <!-- Font Awesome (no integrity to avoid SRI mismatch issues) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Toast Notifications (Vanilla JS)</h1>
+
+      <div class="controls">
+        <button class="btn success" data-type="success">Show Success</button>
+        <button class="btn info" data-type="info">Show Info</button>
+        <button class="btn warning" data-type="warning">Show Warning</button>
+        <button class="btn error" data-type="error">Show Error</button>
+        <button class="btn custom" id="customBtn">Custom Message</button>
+      </div>
+
+      <div class="duration">
+        <label for="duration">Duration (ms):</label>
+        <input id="duration" type="number" min="1000" step="500" value="3000" />
+      </div>
+    </main>
+
+    <!-- Toasts will be injected here -->
+    <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
